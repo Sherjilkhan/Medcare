@@ -1,0 +1,204 @@
+<style>
+ body{
+    background-color: #DEF9C4;
+
+  }
+.nav{
+    background-color:#468585;
+    display: block;
+}
+.nav a{
+    
+    font-size: x-large;
+    color: #DEF9C4;
+    float:left;
+    padding:10px;
+    margin:10px;
+    text-decoration:none;
+    text-align:center;
+}
+.nav a:hover{
+    border-style:solid;
+    border-bottom-width: 4px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    
+  
+    border-color: #DEF9C4;
+
+}
+.nav a:active{
+    background-color: #DEF9C4;
+    color:#468585 ;
+    
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position:absolute;
+  background-color: #468585;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+ font-size: small;
+  color:#DEF9C4;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #468585}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #468585;
+}
+  .lt{
+    width:500px;
+    padding:50px;
+    margin-left:40px;
+  }
+  .lt input{
+    border-style: solid;
+    border-left: 0px;
+    border-right:0px;
+    border-top:0px;
+    
+    border-color:black
+  }
+  .lt textarea{
+    width:200px;
+    height:100px;
+  }
+  .lt label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color:#3e8e41;
+  }
+  .lt select{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .lt button{
+    border-color: #3e8e41;
+    
+  }
+  .lt .submit{
+    color: #3e8e41;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+  }
+  .lti{
+    margin-top:10;
+    height:442px;
+    width:688px;
+    float: right;
+  }
+  section{
+    border-color:#3e8e41;
+    margin-left:40px;
+    padding:20px;
+    border-style: solid;
+    height:200px;
+    width:1243px;
+    box-shadow: #3e8e41;
+  }
+  section img{ 
+   
+    margin-left:60px;
+    float:left;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+  }
+  section h2{
+   
+    float:left;
+    margin-right:40px;
+
+  }
+</style>
+
+
+
+
+<head>
+    <meta name="viewport" content="width=display-width initial-scale:1;">
+    <title>MedCare</title>
+    <link rel=" icon" type="image/x-png" href="C:\Users\HP\OneDrive\Pictures\medcarelogo.png">
+</head>
+<body>
+  <div class="nav">
+   <p> <img src="C:\Users\HP\Medcare\medcarelogo.png" style="width: 30px;height: 30px;margin:5px; float: left;"><h1><b style="color: brown;">MedCare</b></h1></p>
+    
+      <a href="C:\Users\HP\Medcare\index.html" style="float: left;">Home</a> 
+      
+      <div class="dropdown">
+      <a href="#" style="float: left;">Medicine</a>
+        <div class="dropdown-content">
+          <a href="C:\Users\HP\Medcare\ayuvedic.html">Ayurvedic</a>
+          <a href="C:\Users\HP\Medcare\antibio.html">Antibiotics</a>
+          <a href="C:\Users\HP\Medcare\antisep.html">Antiseptic</a>
+        </div>
+      </div>
+      <a href="#" style="float: left;">Lab test</a>  
+      <a href="C:\Users\HP\Medcare\orthopedic.html" >Orthopaedics</a>  
+      <a href="C:\Users\HP\Medcare\csmc.html" style="float: right;">Customer service</a>
+    </div>
+    <br><br> <br><br> <br><br> <br><br>
+    <img class=lti src="C:\Users\HP\Medcare\allimg\labtest.png">
+
+    <form action="C:\Users\HP\Medcare\labtest.html">
+        <fieldset class="lt" >
+            <legend>Book your appointment</legend>
+            <label >Name</label>
+            <input type="text"><br><br>
+            <label>Email</label>
+            <input type="text"><br><br>
+            <label>Choose your test</label>
+            <select>
+              <option></option>
+              <option>Complete Hemogram</option>
+              <option>Liver Profile</option>
+              <option>Diabetes</option>
+              <option>Lipid Profile</option>
+              <option>Thyroid Profile</option>
+              <option>Iron Deficiency</option>
+              <option>Vitamin</option>
+              <option>Testosterone</option>
+              <option>Kidney Function Test</option>
+            </select><br><br>
+            <label>Address</label><br>
+            <textarea></textarea><br>
+            <label>Pincode</label>
+            <input type="number"><br><br>
+            <button type="button" onclick="alert('Your appointmert details will be send to your email')"><input class="submit" type=submit value= "Submit"></button>
+        </fieldset>
+    </form>
+    <br>
+    <section>
+      <img src="C:\Users\HP\Medcare\allimg\ch.png"><h2>Complete Hemogram - Rs.800</h2>
+      <img src="C:\Users\HP\Medcare\allimg\lp.png"><h2>Liver Profile - Rs.1500</h2>
+      <img src="C:\Users\HP\Medcare\allimg\diab.png"><h2>Diabetes - Rs.70 </h2>
+      <img src="C:\Users\HP\Medcare\allimg\lipid.png"><h2>Lipid Profile - Rs.200</h2>
+      <img src="C:\Users\HP\Medcare\allimg\tyroid.png"><h2>Thyroid Profile - Rs.100</h2>
+      <img src="C:\Users\HP\Medcare\allimg\irondef.png"><h2>Iron Deficiency - Rs.60</h2>
+      <img src="C:\Users\HP\Medcare\allimg\vitamin.png"><h2>Vitamin - Rs.200</h2>
+      <img src="C:\Users\HP\Medcare\allimg\testostorone.png"><h2>Testosteron - Rs.324</h2>
+      <img src="C:\Users\HP\Medcare\allimg\kidney.png"><h2>Kidney Function Test - Rs.1300</h2>
+
+    </section>

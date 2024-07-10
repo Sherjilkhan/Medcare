@@ -1,0 +1,218 @@
+<style>
+ body{
+    background-color: #DEF9C4;
+
+  }
+.nav{
+    background-color:#468585;
+    display: block;
+}
+.nav a{
+    
+    font-size: x-large;
+    color: #DEF9C4;
+    float:left;
+    padding:10px;
+    margin:10px;
+    text-decoration:none;
+    text-align:center;
+}
+.nav a:hover{
+    border-style:solid;
+    border-bottom-width: 4px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    
+  
+    border-color: #DEF9C4;
+
+}
+.nav a:active{
+    background-color: #DEF9C4;
+    color:#468585 ;
+    
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position:absolute;
+  background-color: #468585;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+ font-size: small;
+  color:#DEF9C4;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #468585}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #468585;
+}
+  .t{ 
+    width: 500;
+    height: 333;
+    float: right;
+    border-radius: 20px;
+    
+  }
+  section{
+    margin-left: 50px;
+    float:left;
+    border-style:solid;
+    border-radius:25px;
+    border-color: darkgray;
+    border-width:1px;
+    margin:8px;
+    height:500px;
+    width:400px;
+   
+  }
+  .op img{
+    margin-left:25px;
+    margin-right:25px;
+    margin-top:30px;
+    margin-bottom:30px;
+    width:350px;
+    height:250px;
+    float: left;
+    
+
+  }
+  .op button{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    padding:10px;
+    margin-left:50px;
+    margin-right:50px;
+    width:300px;
+    border-radius: 30px;
+    position: relative;
+    background-color:#468585;
+    color:#DEF9C4;
+
+  }
+  .op h3{
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+  }
+  .op h4{
+    text-align: center;
+  }
+  </style>
+<head>
+    <meta name="viewport" content="width=display-width initial-scale:1;">
+    <title>MedCare</title>
+    <link rel=" icon" type="image/x-png" href="C:\Users\HP\OneDrive\Pictures\medcarelogo.png">
+</head>
+<body>
+  <div class="nav">
+   <p> <img src="C:\Users\HP\Medcare\medcarelogo.png" style="width: 30px;height:30px;margin:5px; float: left;"><h1><b style="color: brown;">MedCare</b></h1></p>
+   
+      <a href="C:\Users\HP\Medcare\index.html" style="float: left;">Home</a> 
+      
+      <div class="dropdown">
+      <a href="#" style="float: left;">Medicine</a>
+        <div class="dropdown-content">
+          <a href="C:\Users\HP\Medcare\ayuvedic.html">Ayurvedic</a>
+          <a href="C:\Users\HP\Medcare\antibio.html">Antibiotics</a>
+          <a href="C:\Users\HP\Medcare\antisep.html">Antiseptic</a>
+        </div>
+      </div>
+      <a href="C:\Users\HP\Medcare\labtest.html" style="float: left;">Lab test</a>
+      <a href="C:\Users\HP\Medcare\orthopedic.html" >Orthopaedics</a> 
+      <a href="C:\Users\HP\Medcare\csmc.html" style="float: right;">Customer service</a>
+    </div>
+    <br><br> <br><br> <br><br> <br><br>
+    <section class="op">
+      <img src="C:\Users\HP\Medcare\allimg\zandupancharishta.png">
+      <h3>Zandu Pancharishta-Digestion Syrup</h3>
+      <h4>MRP: 108</h4>
+      <button>Buy</button>
+    </section>
+    <section class="op">
+      <img src="C:\Users\HP\Medcare\allimg\zandu-ayurvedic-cough-syrup.png">
+      <h3>Zandu-CoughSyrup</h3>
+      <h4>MRP:72</h4>
+      <button>Buy</button>
+    </section>
+    <section class="op">
+      <img src="C:\Users\HP\Medcare\allimg\yinsulin medicine-for-diabetes.png">
+      <h3>Y-Insulin-Diabetes tabs</h3>
+      <h4>MRP: 55</h4>
+      <button>Buy</button>
+    </section>
+    <section class="op">
+      <img src="C:\Users\HP\Medcare\allimg\sugartoneayurvedic-diabetic-control-capsule.png">
+      <h3>Sugar Tone-Diabetic control Tabs</h3>
+      <h4>MRP: 112</h4>
+      <button>Buy</button>
+    </section>
+    <section class="op">
+      <img src="C:\Users\HP\Medcare\allimg\Orthorakshajointpaintab.png">
+      <h3>Orthoraksha-Jointpain tab</h3>
+      <h4>MRP: 83</h4>
+      <button>Buy</button>
+    </section>
+    <section class="op">
+      <img src="C:\Users\HP\Medcare\allimg\Medhavibrainsyrup.png">
+      <h3>Medhavi-Brain Syrup</h3>
+      <h4>MRP: 247</h4>
+      <button>Buy</button>
+    </section>
+    <section class="op">
+      <img src="C:\Users\HP\Medcare\allimg\Jheev ayurvedic supplementforferti.png">
+      <h3>Jheev-Supplement for fertility</h3>
+      <h4>MRP: 349</h4>
+      <button>Buy</button>
+    </section>
+    <section class="op">
+      <img src="C:\Users\HP\Medcare\allimg\himalya talekt-syrup120.png">
+      <h3>Himalya-Talekt</h3>
+      <h4>MRP: 133</h4>
+      <button>Buy</button>
+    </section>
+    <section class="op">
+      <img src="C:\Users\HP\Medcare\allimg\himalaya-serpina.png">
+      <h3>Himalaya-Serpina</h3>
+      <h4>MRP: 92</h4>
+      <button>Buy</button>
+    </section>
+    <section class="op">
+      <img src="C:\Users\HP\Medcare\allimg\azaraquimusclepaintab.png">
+      <h3>Azaraqui-Muscle pain tab</h3>
+      <h4>MRP:362</h4>
+      <button>Buy</button>
+    </section>
+    <section class="op">
+      <img src="C:\Users\HP\Medcare\allimg\ashwagandhaStressRelieverPackforanxiety.png">
+      <h3>Ashwagandha-Stress Reliever Pack for anxiety</h3>
+      <h4>MRP:246</h4>
+      <button>Buy</button>
+    </section>
+    <section class="op">
+      <img src="C:\Users\HP\Medcare\allimg\Abhiliv-Syrup-hepatoprotectivesyrup.png">
+      <h3>Abhiliv Syrup-Hepato protective syrup</h3>
+      <h4>MRP: 180S</h4>
+      <button>Buy</button>
+    </section>
